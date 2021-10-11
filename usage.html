@@ -1,0 +1,269 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+        "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<link rel=stylesheet href="quickml.css" media=all>
+<title>QuickML.COM: 使い方</title>
+</head>
+<body>
+<h1><a href="http://quickml.com/"><img src="images/quickml1.png" alt="QuickML.COM"></a></h1>
+
+<!-- tab -->
+<p class=list>
+<a href="index.html">ようこそ</a> |
+<strong>使い方</strong> |
+<a href="application.html">活用法</a> |
+<a href="FAQ.html">よくある質問</a> |
+<a href="info.html">関連情報</a> |
+<a href="stat.html">利用状況</a> |
+<a href="contact.html">連絡先</a>
+</p>
+<!-- /tab -->
+
+
+<h2>使い方</h2>
+
+<p>
+このページでは基本的な使い方を紹介します。
+詳細は<a href="FAQ.html">よくある質問</a>を参照してください。
+</p>
+
+<h3><a name="create">メーリングリストの作成</a></h3>
+
+<p>
+<em class=red>enkai</em><strong>@quickml.com</strong>
+のような好きなアドレスにメールを送れば、
+新しいメーリングリストを作れます。
+<em class=red>enkai@gotanda</em><strong>.quickml.com</strong>
+のように名前にサブドメインが
+入ったメーリングリストを作ることもできます。
+</p>
+
+<pre>
+Subject: 宴会メーリングリスト作りました
+To: enkai@quickml.com                ← <strong>作りたいMLのアドレス</strong>
+From: satoru@example.com             ← <strong>自分のアドレス</strong>
+Cc: masui@example.com                ← <strong>参加者リスト</strong>
+
+突然ですが、宴会好きのメーリング     ← <strong>本文</strong>
+リストを作ってみました。 
+</pre>
+
+<p>
+From: と Cc: のアドレスがメーリングリストに登録され、
+登録されたメンバーにメールが送られます。
+</p>
+
+
+
+<h3><a name="submit">メーリングリストへ投稿</a></h3>
+
+<p>
+作成したメーリングリストのアドレスにメールを送れば投稿できま
+す。メンバー以外からのメールは受け付けません。
+</p>
+
+<pre>
+Subject: 今晩どう?                     
+To: enkai@quickml.com                ← <strong>MLのアドレス</strong>
+From: satoru@example.com             ← <strong>自分のアドレス</strong>
+
+さっそくですが今晩はどうでしょうか。 ← <strong>本文</strong>
+</pre>
+
+<!--
+<p>
+このとき、メールの From: にはメーリングリストに登録されている
+アドレスを設定する必要があります。登録アドレス以外からの投稿
+すると、新しいメーリングリストが作成されてしまいます。
+</p>
+-->
+
+<h3><a name="add">新しいメンバーの追加</a></h3>
+
+<p>
+<!--
+すでに参加しているメンバーが、新しいメンバーを Cc: で勧誘し
+ます。
+-->
+すでに参加しているメンバーは
+新しいメンバーを Cc: で追加することができます。
+</p>
+
+<pre>
+Subject: 小松君を追加
+To: enkai@quickml.com                  ← <strong>MLのアドレス</strong>
+From: satoru@example.com               ← <strong>自分のアドレス</strong>
+Cc: komatsu@example.com                ← <strong>新メンバーのアドレス</strong>
+
+小松君を新しいメンバーとして           ← <strong>本文</strong>
+呼んできました。
+</pre>
+
+<!--
+<p>
+このとき、小松君 (komatsu@example.com) には Cc: で送られたメー
+ルと、 QuickML.COM のメーリングリスト経由で送られたメールの、2
+通が届きます。
+</p>
+-->
+
+<h3><a name="subscribe">メーリングリストへ参加</a></h3>
+
+<p>
+すでに参加しているメンバーを知っていれば、
+<!--
+自分からメーリングリストに参加することができます。
+すでに参加しているメンバーにCc: で合図を送ります。
+-->
+そのメンバーを Cc: で指定すれば
+メーリングリストに参加できます。
+参加のために送ったメールはメーリングリストに流れるので、
+注意しましょう。
+</p>
+
+<pre>
+Subject: 参加します
+To: enkai@quickml.com                ← <strong>MLのアドレス</strong>
+From: tsuka@example.com              ← <strong>自分のアドレス</strong>
+Cc: masui@example.com                ← <strong>参加メンバーのアドレス</strong>
+
+僕を忘れてもらっては困ります。       ← <strong>本文</strong>
+</pre>
+
+<!--
+<p>
+このとき、増井さん (masui@example.com) には Cc: で送られたメー
+ルと、 QuickML.COM のメーリングリスト経由で送られたメールの、2
+通が届きます。
+</p>
+
+<p>
+<strong>Cc: すでに参加しているメンバーのアドレス</strong> を
+忘れると、メーリングリストに参加できないので、注意しましょう。
+</p>
+-->
+
+<h3><a name="unsubscribe">メーリングリストから退会</a></h3>
+
+<p>
+メーリングリストに<strong>空メール</strong>を送ると、メーリ
+ングリストから退会できます (空メールはMLには流れません)。
+シグネチャをつけないように注意しましょう。
+</p>
+
+<pre>
+Subject: 退会します
+To: enkai@quickml.com                ← <strong>MLのアドレス</strong>
+From: satoru@example.com             ← <strong>自分のアドレス</strong>
+
+                                     ← <strong>空の本文</strong>
+</pre>
+
+<!--
+<p>
+このとき、メールの From: にはメーリングリストに登録されている
+アドレスを設定する必要があります。登録アドレス以外からの投稿
+すると "You are not a member of the mailing list..." という
+エラーメールが返ってくるので、注意しましょう。
+</p>
+-->
+
+<p>
+空メールを送れない場合は本文に「退会」とだけ書いたメールを
+MLに送ってください (MLには流れません)。
+</p>
+
+<h3><a name="change">登録アドレスの変更</a></h3>
+
+<p>
+メーリングリストに登録されているアドレスを変更したいときは、
+新しいアドレスを<a href="#add">追加</a>してから
+古いアドレスで<a href="#unsubscribe">退会</a>して下さい。
+</p>
+
+<h3><a name="remove">メンバーの削除</a></h3>
+
+<p>
+届かないアドレスを登録してしまったなどの理由でメンバーのアド
+レスを削除したい場合は Cc: に削除したいアドレスを指定して
+メーリングリストに<strong>空メール</strong>を送ると、指定し
+たアドレスをメーリングリストから削除できます。
+シグネチャをつけないように注意しましょう。
+</p>
+
+<pre>
+Subject: 削除します
+To: enkai@quickml.com                ← <strong>MLのアドレス</strong>
+From: satoru@example.com             ← <strong>自分のアドレス</strong>
+Cc: fugo-masui@pitecan..com          ← <strong>削除するアドレス</strong>
+
+                                     ← <strong>空の本文</strong>
+</pre>
+
+<p>
+嫌いなメンバーを勝手に削除するといった悪用はやめましょう。
+</p>
+
+<h3><a name="return">メーリングリストへ復帰</a></h3>
+
+<p>
+退会したメーリングリストに再びメールを送ると、メーリ
+ングリストに復帰できます。
+</p>
+
+<pre>
+Subject: 復帰しました
+To: enkai@quickml.com                ← <strong>MLのアドレス</strong>
+From: satoru@example.com             ← <strong>自分のアドレス</strong>
+
+仕事が一段落しました。またよろしく。 ← <strong>本文</strong>
+</pre>
+
+
+<!--
+
+この機能は 2002年10月17日に廃止されました。
+
+<h3><a name="subml">サブメーリングリストの作成</a></h3>
+
+
+<p>
+<strong>Reply-To:</strong> と
+<strong>Subject:</strong> を活用することで、
+話題から派生したサブメーリングリストを作ることができます。
+</p>
+
+<pre>
+Subject: 今日の宴会
+To: enkai@quickml.com                ← <strong>MLのアドレス</strong>
+From: masui@example.com              ← <strong>自分のアドレス</strong>
+Reply-To: enkai@gotanda.quickml.com  ← <strong>サブMLのアドレス</strong>
+
+今日の五反田の宴会に参加する人は     ← <strong>本文</strong>
+このメールに返事をください。
+</pre>
+
+<p>
+このとき、Subject: の「今日の宴会」がメンバー登録のパスワー
+ドになります。
+そのため、Subject: に変更を加えると参加できなくなります。
+</p>
+-->
+
+<hr>
+<!-- tab -->
+<p class=list>
+<a href="index.html">ようこそ</a> |
+<strong>使い方</strong> |
+<a href="application.html">活用法</a> |
+<a href="FAQ.html">よくある質問</a> |
+<a href="info.html">関連情報</a> |
+<a href="stat.html">利用状況</a> |
+<a href="contact.html">連絡先</a>
+</p>
+<!-- /tab -->
+
+
+</body>
+</html>
