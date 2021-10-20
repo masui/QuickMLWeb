@@ -1,0 +1,12 @@
+Value-DomainのDNS設定 2021/10/20
+
+# Cloudflare Pagesの場合
+# a quickml.net. 172.66.45.39
+# GitHub Pagesの場合
+a quickml.net. 185.199.108.153
+a quickml.net. 185.199.109.153
+a quickml.net. 185.199.110.153
+a quickml.net. 185.199.111.153
+a mail.quickml.net. 153.120.0.184
+mx mail.quickml.net. 10
+txt mail.quickml.net. google-site-verification=9gZvZfH3vUBhAMu0VEr1tBvrmDm47vQ0rWbZfFpuxRE
